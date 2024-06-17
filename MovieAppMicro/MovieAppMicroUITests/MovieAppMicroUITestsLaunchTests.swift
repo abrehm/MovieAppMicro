@@ -1,10 +1,3 @@
-//
-//  MovieAppMicroUITestsLaunchTests.swift
-//  MovieAppMicroUITests
-//
-//  Created by Andrew Brehm on 2/8/24.
-//
-
 import XCTest
 
 final class MovieAppMicroUITestsLaunchTests: XCTestCase {
