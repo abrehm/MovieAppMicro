@@ -1,0 +1,63 @@
+{
+  "configurations" : [
+    {
+      "id" : "2B2BEDFD-F38B-46C7-864F-8D269288DF42",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MovieAppMicro.xcodeproj",
+      "identifier" : "55F57B462B75706A008D7AB0",
+      "name" : "MovieAppMicro"
+    }
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MovieAppMicro.xcodeproj",
+        "identifier" : "55F57B572B75706C008D7AB0",
+        "name" : "MovieAppMicroTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MovieAppMicro.xcodeproj",
+        "identifier" : "55F57B612B75706C008D7AB0",
+        "name" : "MovieAppMicroUITests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:..\/HomeMic",
+        "identifier" : "HomeMicTests",
+        "name" : "HomeMicTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:..\/Navigation",
+        "identifier" : "NavigationTests",
+        "name" : "NavigationTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:..\/TabMicro",
+        "identifier" : "TabMicroTests",
+        "name" : "TabMicroTests"
+      }
+    }
+  ],
+  "version" : 1
+}
