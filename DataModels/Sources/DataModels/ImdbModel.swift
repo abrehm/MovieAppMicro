@@ -1,10 +1,3 @@
-//
-//  File.swift
-//  
-//
-//  Created by Hai Nguyen on 2/12/24.
-//
-
 import Foundation
 
 public enum NetworkError: Codable, Error {
